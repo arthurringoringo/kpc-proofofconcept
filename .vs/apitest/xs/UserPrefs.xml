@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{7354AA23-8B8F-42C7-8912-10266D01B9DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PriceListController.cs">
+    <Files>
+      <File FileName="Entities/PriceList.cs" Line="25" Column="2" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="ApiDbContext.cs" />
+      <File FileName="PriceListController.cs" Line="193" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Migrations/20200615102406_inital.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="apitest" expanded="True">
+            <Node name="apitest" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Frontend" expanded="True">
+                <Node name="reporting-PI-vue" expanded="True" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.apitest PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
