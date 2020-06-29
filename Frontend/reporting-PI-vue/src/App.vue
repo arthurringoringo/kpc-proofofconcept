@@ -8,7 +8,7 @@
     </div>
     <div class="grid-container">
       <div class = "item3"> <ChartBar2 /> </div>
-      <div class = "item4">   <ChartBar2 /></div>
+      <div class = "item4">   <ChartBar3 /></div>
     </div>
   </div>
 </template>
@@ -18,12 +18,14 @@
 import ChartDoughnut from '@/components/PriceReport'
 import ChartBar1 from '@/components/ItemReport'
 import ChartBar2 from '@/components/PricediffReport'
+import ChartBar3 from '@/components/PriceCategoryReport'
 
 export default {
   components: {
     ChartDoughnut,
     ChartBar1,
-    ChartBar2
+    ChartBar2,
+    ChartBar3
   }
 }
 </script>

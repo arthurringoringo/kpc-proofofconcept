@@ -87,10 +87,10 @@ namespace apitest
 
                 StoreB tempb = b.Find(obj => obj.Barcode.Equals(item.Barcode));
 
-                if (tempb == null )
+                if (tempb == null)
                 {
 
-                    notfoud ++ ;
+                    notfoud++;
 
                 }
                 else
@@ -116,7 +116,7 @@ namespace apitest
 
             }
 
-            int[] data = { underPrice, overPrice, equal ,notfoud};
+            int[] data = { underPrice, overPrice, equal, notfoud };
 
             return Ok(data.ToList());
 
@@ -219,9 +219,32 @@ namespace apitest
                 }
             }
 
-            int[] data = { na,maxmin50, min50, bel50, abv50 };
+            int[] data = { na, maxmin50, min50, bel50, abv50 };
 
             return Ok(data);
         }
+
+
+        [HttpGet("compare/category")]
+        public IActionResult getCategory()
+        {
+            var a = GetListA().ToList();
+            int size = a.Count;
+
+            decimal Food = a.Where(x => x.Tag.Equals("Food")).Count();
+            Food = Math.Ceiling((Food / size) * 100);
+
+            decimal Technology = (a.Where(x => x.Tag.Equals("Technology")).Count());
+            Technology = Math.Ceiling((Technology / size) * 100);
+
+            decimal Beauty = (a.Where(x => x.Tag.Equals("Beauty")).Count());
+            Beauty = Math.Ceiling((Beauty / size) * 100);
+
+            decimal Drinks = (a.Where(x => x.Tag.Equals("Drinks")).Count());
+            Drinks = Math.Ceiling((Drinks / size) * 100);
+            
+            decimal[] data = {Food, Technology, Beauty, Drinks };
+            return Ok(data);
+        }
     }
-}    
+}

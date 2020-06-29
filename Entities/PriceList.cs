@@ -11,6 +11,7 @@ namespace apitest.Entities
         public int Barcode { get; set; }
         public string ItemName { get; set; }
         public float Price { get; set; }
+        public string Tag { get; set; }
     }
 
     public class StoreB
@@ -21,5 +22,6 @@ namespace apitest.Entities
         public int Barcode { get; set; }
         public string ItemName { get; set; }
         public float Price { get; set; }
+        public string Tag { get; set; }
     }
 }
