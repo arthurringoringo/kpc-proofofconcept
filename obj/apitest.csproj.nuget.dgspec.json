@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arthur.rin/Desktop/apitest/apitest.csproj": {}
+    "C:\\Users\\MeLoVeMe\\Documents\\GitHub\\kpc-proofofconcept\\apitest.csproj": {}
   },
   "projects": {
-    "/Users/arthur.rin/Desktop/apitest/apitest.csproj": {
+    "C:\\Users\\MeLoVeMe\\Documents\\GitHub\\kpc-proofofconcept\\apitest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arthur.rin/Desktop/apitest/apitest.csproj",
+        "projectUniqueName": "C:\\Users\\MeLoVeMe\\Documents\\GitHub\\kpc-proofofconcept\\apitest.csproj",
         "projectName": "apitest",
-        "projectPath": "/Users/arthur.rin/Desktop/apitest/apitest.csproj",
-        "packagesPath": "/Users/arthur.rin/.nuget/packages/",
-        "outputPath": "/Users/arthur.rin/Desktop/apitest/obj/",
+        "projectPath": "C:\\Users\\MeLoVeMe\\Documents\\GitHub\\kpc-proofofconcept\\apitest.csproj",
+        "packagesPath": "C:\\Users\\MeLoVeMe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MeLoVeMe\\Documents\\GitHub\\kpc-proofofconcept\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/arthur.rin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\MeLoVeMe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
